@@ -266,8 +266,6 @@ i686-linux-gnu-strings
 i686-linux-gnu-strip
 ~~~
 
-![](https://github.com/Awyker/2024-OS-labs/blob/main/images-lab1/%E6%88%AA%E5%B1%8F2024-03-08%2021.33.22.png)
-
 #### 安装i686交叉编译器
 
 安装gdb多体系结构包。
