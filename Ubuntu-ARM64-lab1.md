@@ -266,6 +266,8 @@ i686-linux-gnu-strings
 i686-linux-gnu-strip
 ~~~
 
+![](https://github.com/Awyker/2024-OS-labs/blob/main/images-lab1/%E6%88%AA%E5%B1%8F2024-03-08%2021.33.22.png)
+
 #### 安装i686交叉编译器
 
 安装gdb多体系结构包。
@@ -326,7 +328,7 @@ make ARCH=i386 CROSS_COMPILE=i686-linux-gnu- -j2
 
 检查Linux压缩镜像`linux-5.10.19/arch/x86/boot/bzImage`和符号表`linux-5.10.19/vmlinux`是否已经生成。
 
-![](/Users/Adam/Documents/操作系统原理实验报告/操作系统第一次实验/ubuntu arm 64 实验截图/截屏2024-03-09 10.12.00.png)
+![](https://github.com/Awyker/2024-OS-labs/blob/main/images-lab1/%E6%88%AA%E5%B1%8F2024-03-09%2010.12.00.png)
 
 ### 启动内核并调试
 
@@ -429,7 +431,7 @@ qemu-system-i386 -kernel linux-5.10.19/arch/x86/boot/bzImage -initrd hwinitramfs
 
 重复上面的gdb的调试过程，可以看到qemu中输出了`lab1: Hello World\n`。
 
-![截屏2024-03-09 11.42.33](/Users/Adam/Documents/操作系统原理实验报告/操作系统第一次实验/ubuntu arm 64 实验截图/截屏2024-03-09 11.42.33.png)
+![](https://github.com/Awyker/2024-OS-labs/blob/main/images-lab1/%E6%88%AA%E5%B1%8F2024-03-09%2011.42.33.png)
 
 ### 编译并启动busybox
 
@@ -521,7 +523,7 @@ qemu-system-i386 -kernel linux-5.10.19/arch/x86/boot/bzImage -initrd initramfs-b
 
 然后使用`ls`命令即可看到当前文件夹。
 
-![截屏2024-03-09 12.03.35](https://github.com/Awyker/2024-OS-labs/blob/main/images-lab1/%E6%88%AA%E5%B1%8F2024-03-09%2012.03.35.png)
+![](https://github.com/Awyker/2024-OS-labs/blob/main/images-lab1/%E6%88%AA%E5%B1%8F2024-03-09%2012.03.35.png)
 
 
 
