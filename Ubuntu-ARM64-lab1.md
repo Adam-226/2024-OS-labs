@@ -521,7 +521,7 @@ qemu-system-i386 -kernel linux-5.10.19/arch/x86/boot/bzImage -initrd initramfs-b
 
 然后使用`ls`命令即可看到当前文件夹。
 
-![截屏2024-03-09 12.03.35](/Users/Adam/Documents/操作系统原理实验报告/操作系统第一次实验/ubuntu arm 64 实验截图/截屏2024-03-09 12.03.35.png)
+![截屏2024-03-09 12.03.35](https://github.com/Awyker/2024-OS-labs/blob/main/images-lab1/%E6%88%AA%E5%B1%8F2024-03-09%2012.03.35.png)
 
 
 
